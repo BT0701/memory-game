@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(39, 35, 35);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Ultra', serif;
+    color: rgb(111, 100, 100);
+    font-weight: 100;
+    font-size: 50px;
+    margin: 3%;
+}
+
+button {
+    text-align: center;
+    font-family: 'Ultra', serif;
+    color: rgb(39, 35, 35);
+    background-color: antiquewhite;
+    font-size: 40px;
+    border-bottom: black 5px solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(111, 100, 100);
+}
+
+.game-board {
+    display: inline-block;
+}
+
+.row {
+    clear: both;
+}
+
+.card {
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    border-radius: 10%;
+    height: 200px;
+    width: 200px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    visibility: hidden;
+}
+
+.flipped {
+    background-color: antiquewhite;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    background-color: rgb(39, 35, 35);
+    border: none;
+}
